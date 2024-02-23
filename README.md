@@ -17,6 +17,23 @@ The objective of the game is to catch as many turtles as possible within a certa
 * Display of score on the screen
 * Time limit
 
+# Screenshots
+
+Here are some screenshots from the game:
+
+1. **Choosing Difficulty Screen**
+
+   ![starting screen](https://github.com/altugmalkan/CatchTheTurtle-Game/assets/147262853/b83db270-07fe-4b55-a273-d09ab1e06147)
+
+2. **Game Screen**
+
+   ![gaming screen](https://github.com/altugmalkan/CatchTheTurtle-Game/assets/147262853/f99f5057-4c54-46bb-bab8-ae2e2dfa8911)
+
+3. **Game Over Screen**
+
+   ![game over screen](https://github.com/altugmalkan/CatchTheTurtle-Game/assets/147262853/23e4a0b0-df1f-42df-b038-be44005f7f99)
+
+
 # How can we Enhance the game ?
 
 1. Visual Improvements: Enhance the appearance of the game by changing the colors of turtles or the background.
