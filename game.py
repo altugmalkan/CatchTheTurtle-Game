@@ -21,11 +21,19 @@ time_turtle.hideturtle()
 time_turtle.color("blue")
 
 score = 0
+
 def getPosition(x,y):
     global score
     distance = leonardo.distance(x, y)
-    if distance < 20:
-        score += 1
+    if difficulty == "easy":    
+        if distance < 50:
+            score += 1
+    elif difficulty == "medium":
+        if distance < 35:
+            score += 1
+    elif difficulty == "hard":
+        if distance < 20:
+            score += 1
 
 def game(diff):
     if diff == "easy":
@@ -56,10 +64,10 @@ def game(diff):
         leonardo.penup()
         leonardo.hideturtle()
         leonardo.goto(x=randPositionX,y=randPositionY)
-        time_turtle.clear()
-        score_turtle.clear()
         leonardo.showturtle()
         leonardo.onclick(getPosition)
+        time_turtle.clear()
+        score_turtle.clear()
         i-=1
         time.sleep(sec)
     screen.clear()
